@@ -25,7 +25,7 @@ import { useEffect, useRef, useState } from 'react';
 import 'react-tabs/style/react-tabs.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import CommonListViewTable from '../basic-masters/CommonListViewTable';
+import CommonListViewTable from '../../../utils/CommonListViewTable';
 import { showToast } from 'utils/toast-component';
 import apiCalls from 'apicall';
 import ActionButton from 'utils/ActionButton';

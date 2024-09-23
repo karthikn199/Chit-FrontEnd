@@ -11,7 +11,7 @@ import Checkbox from '@mui/material/Checkbox';
 import ActionButton from 'utils/ActionButton';
 import ToastComponent, { showToast } from 'utils/toast-component';
 import apiCalls from 'apicall';
-import CommonListViewTable from '../basic-masters/CommonListViewTable';
+import CommonListViewTable from '../../../utils/CommonListViewTable';
 
 export const ScreenNames = () => {
   const [orgId, setOrgId] = useState(localStorage.getItem('orgId'));

@@ -18,7 +18,7 @@ import 'react-tabs/style/react-tabs.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ActionButton from 'utils/ActionButton';
-import CommonListViewTable from '../basic-masters/CommonListViewTable';
+import CommonListViewTable from '../../../utils/CommonListViewTable';
 
 const FinYearMaster = () => {
   const [orgId, setOrgId] = useState(parseInt(localStorage.getItem('orgId')));

@@ -19,7 +19,7 @@ import { useEffect, useRef, useState } from 'react';
 import 'react-tabs/style/react-tabs.css';
 import 'react-toastify/dist/ReactToastify.css';
 import Responsibilities from './Responsibilities';
-import CommonListViewTable from '../basic-masters/CommonListViewTable';
+import CommonListViewTable from '../../../utils/CommonListViewTable';
 import ActionButton from 'utils/ActionButton';
 import apiCalls from 'apicall';
 import OutlinedInput from '@mui/material/OutlinedInput';

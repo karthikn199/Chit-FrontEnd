@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import ActionButton from 'utils/ActionButton';
 import { getAllActiveCountries } from 'utils/CommonFunctions';
 import ToastComponent, { showToast } from 'utils/toast-component';
-import CommonListViewTable from '../basic-masters/CommonListViewTable';
+import CommonListViewTable from '../../../utils/CommonListViewTable';
 
 export const StateMaster = () => {
   const [orgId, setOrgId] = useState(localStorage.getItem('orgId'));

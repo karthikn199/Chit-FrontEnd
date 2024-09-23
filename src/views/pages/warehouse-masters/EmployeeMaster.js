@@ -6,7 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { TextField, Checkbox, FormControlLabel, FormHelperText, FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import { DatePicker } from '@mui/x-date-pickers';
-import CommonListViewTable from '../basic-masters/CommonListViewTable';
+import CommonListViewTable from '../../../utils/CommonListViewTable';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import ActionButton from 'utils/ActionButton';

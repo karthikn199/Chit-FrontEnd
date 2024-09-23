@@ -18,7 +18,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import ActionButton from 'utils/ActionButton';
 import { getAllActiveBranches, getAllActiveCitiesByState, getAllActiveCountries, getAllActiveStatesByCountry } from 'utils/CommonFunctions';
 import { showToast } from 'utils/toast-component';
-import CommonListViewTable from '../basic-masters/CommonListViewTable';
+import CommonListViewTable from '../../../utils/CommonListViewTable';
 
 export const FullFeaturedCrudGrid2 = () => {
   const [orgId, setOrgId] = useState(localStorage.getItem('orgId'));

@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { FormHelperText, Tooltip, FormControlLabel, Checkbox } from '@mui/material';
 import TextField from '@mui/material/TextField';
 import { useTheme } from '@mui/material/styles';
-import CommonListViewTable from '../basic-masters/CommonListViewTable';
+import CommonListViewTable from '../../../utils/CommonListViewTable';
 import axios from 'axios';
 import { useRef, useState, useMemo, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';

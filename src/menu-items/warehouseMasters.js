@@ -164,42 +164,6 @@ const loginUserType = localStorage.getItem('userType');
 const storedScreens = JSON.parse(localStorage.getItem('screens')) || [];
 
 const screenMappings = {
-  customer: {
-    id: 'customerMaster',
-    title: 'Customer',
-    type: 'item',
-    url: '/warehousemasters/customermaster'
-  },
-  warehouse: {
-    id: 'warehouseMaster',
-    title: 'Warehouse',
-    type: 'item',
-    url: '/warehousemasters/warehousemaster'
-  },
-  locationType: {
-    id: 'locationTypeMaster',
-    title: 'Bin Type',
-    type: 'item',
-    url: '/warehousemasters/locationtypemaster'
-  },
-  warehouseLocation: {
-    id: 'warehouseLocationMaster',
-    title: 'Warehouse Location',
-    type: 'item',
-    url: '/warehousemasters/warehouselocationmaster'
-  },
-  locationMapping: {
-    id: 'locationMappingMaster',
-    title: 'LocationMapping',
-    type: 'item',
-    url: '/warehousemasters/locationmappingmaster'
-  },
-  cellType: {
-    id: 'cellTypeMaster',
-    title: 'CellType',
-    type: 'item',
-    url: '/warehousemasters/celltypemaster'
-  },
   employee: {
     id: 'employeeMaster',
     title: 'Employee',
@@ -212,42 +176,7 @@ const screenMappings = {
     type: 'item',
     url: '/warehousemasters/usercreationmaster'
   },
-  item: {
-    id: 'itemMaster',
-    title: 'Item',
-    type: 'item',
-    url: '/warehousemasters/itemmaster'
-  },
-  buyer: {
-    id: 'buyerMaster',
-    title: 'Buyer',
-    type: 'item',
-    url: '/warehousemasters/buyermaster'
-  },
-  carrier: {
-    id: 'carrierMaster',
-    title: 'Carrier',
-    type: 'item',
-    url: '/warehousemasters/carriermaster'
-  },
-  supplier: {
-    id: 'supplierMaster',
-    title: 'Supplier',
-    type: 'item',
-    url: '/warehousemasters/suppliermaster'
-  },
-  externalDataMismatch: {
-    id: 'externalDataMismatchMaster',
-    title: 'External Data Mismatch',
-    type: 'item',
-    url: '/warehousemasters/externaldatamismatchmaster'
-  },
-  materialLabelMapping: {
-    id: 'materialLabelMappingMaster',
-    title: 'Material Label Mapping',
-    type: 'item',
-    url: '/warehousemasters/materiallabelmappingmaster'
-  },
+
   department: {
     id: 'departmentMaster',
     title: 'Department',
@@ -259,30 +188,6 @@ const screenMappings = {
     title: 'Designation',
     type: 'item',
     url: '/warehousemasters/designationmaster'
-  },
-  unit: {
-    id: 'unitMaster',
-    title: 'Unit',
-    type: 'item',
-    url: '/warehousemasters/unitmaster'
-  },
-  group: {
-    id: 'groupMaster',
-    title: 'Group',
-    type: 'item',
-    url: '/warehousemasters/groupmaster'
-  },
-  documentType: {
-    id: 'documentTypeMaster',
-    title: 'Document Type',
-    type: 'item',
-    url: '/warehousemasters/documenttype'
-  },
-  documentTypeMapping: {
-    id: 'documentTypeMappingMaster',
-    title: 'DocumentType Mapping',
-    type: 'item',
-    url: '/warehousemasters/documenttypemapping'
   },
   finYear: {
     id: 'finYearMaster',

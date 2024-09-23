@@ -13,7 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import ActionButton from 'utils/ActionButton';
 import { showToast } from 'utils/toast-component';
 import { encryptPassword } from 'views/utilities/encryptPassword';
-import CommonListViewTable from '../basic-masters/CommonListViewTable';
+import CommonListViewTable from '../../../utils/CommonListViewTable';
 
 const CreateCompany = () => {
   const [isLoading, setIsLoading] = useState(false);
